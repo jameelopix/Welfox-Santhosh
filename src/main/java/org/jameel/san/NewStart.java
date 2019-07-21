@@ -60,7 +60,7 @@ public class NewStart {
 
 // Login login = new Login(userName, password);
         Page1 page1 = (Page1) populateObject(Page1.class, sheet1, rowNumber);
-// Page2 page2 = (Page2) populateObject(Page2.class, sheet2, rowNumber);
+        Page2 page2 = (Page2) populateObject(Page2.class, sheet2, rowNumber);
 // Page3 page3 = (Page3) populateObject(Page3.class, sheet3, rowNumber);
 // Page4 page4 = (Page4) populateObject(Page4.class, sheet4, rowNumber);
 //        Page5 page5 = (Page5) populateObject(Page5.class, sheet5, rowNumber);
@@ -72,8 +72,8 @@ public class NewStart {
 // System.out.println(page5.toString());
 
 // this.executeLogin(loginUrl, driver, login);
-        this.executePage1(page1Url, driver, page1);
-// this.executePage2(page2Url, driver, page2);
+//        this.executePage1(page1Url, driver, page1);
+        this.executePage2(page2Url, driver, page2);
 // this.executePage3(page3Url, driver, page3);
 // this.executePage4(page4Url, driver, page4);
 //        this.executePage5(page5Url, driver, page5);
